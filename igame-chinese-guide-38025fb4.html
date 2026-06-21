@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>igame-chinese · 产品说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #fafafa;
+      color: #1e1e1e;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.7;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 72px 24px 96px;
+    }
+
+    /* 标题层级 —— 清晰、克制的信息权重 */
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+
+    .subhead {
+      font-size: 1.1rem;
+      font-weight: 380;
+      color: #4a4a4a;
+      margin-bottom: 2.5rem;
+      border-left: 3px solid #d0d0d0;
+      padding-left: 1rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin: 2.4rem 0 0.8rem;
+      letter-spacing: -0.01em;
+      border-bottom: 1px solid #eaeaea;
+      padding-bottom: 0.3rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      margin: 1.6rem 0 0.4rem;
+      color: #2a2a2a;
+    }
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    ul {
+      margin: 0 0 1.2rem 1.2rem;
+      padding: 0;
+      list-style: none;
+    }
+
+    ul li {
+      position: relative;
+      padding-left: 1.2rem;
+      margin-bottom: 0.4rem;
+    }
+
+    ul li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: #a0a0a0;
+    }
+
+    .highlight-box {
+      background: #f2f2f2;
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0 1.8rem;
+      font-size: 0.95rem;
+      border: 1px solid #e6e6e6;
+    }
+
+    .highlight-box p {
+      margin-bottom: 0.4rem;
+    }
+
+    .inline-link {
+      color: #2563eb;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+      transition: color 0.15s;
+    }
+
+    .inline-link:hover {
+      color: #1e40af;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+      margin: 1.6rem 0 1.8rem;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e8e8e8;
+      border-radius: 14px;
+      padding: 1.2rem 1rem;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    .card h4 {
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 0.4rem;
+      color: #1c1c1c;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #444;
+      margin-bottom: 0;
+    }
+
+    .faq-item {
+      margin: 1rem 0;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      color: #1f1f1f;
+      margin-bottom: 0.15rem;
+    }
+
+    .faq-a {
+      color: #4d4d4d;
+      font-size: 0.95rem;
+      margin-left: 0.2rem;
+    }
+
+    .footnote {
+      margin-top: 3rem;
+      padding-top: 1.7rem;
+      border-top: 1px solid #e0e0e0;
+      font-size: 0.85rem;
+      color: #6b6b6b;
+      text-align: left;
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        padding: 40px 20px 80px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>igame-chinese · 产品摘要</h1>
+    <div class="subhead">面向中文使用者的轻量工具站 · 快速识别用途与边界</div>
+
+    <p>该站点为希望了解特定游戏或数字服务中文版本的用户提供索引与说明。平台本身不托管、不分发任何受版权保护的资源，仅以信息聚合与指引为主要职能。如果你正在寻找一个清晰、无干扰的起点来评估某个工具或内容的中文支持情况，<a href="https://igame-chinese.com" class="inline-link">ayx</a> 提供了一条直截了当的路径。</p>
+
+    <h2>核心亮点</h2>
+    <ul>
+      <li>内容聚焦中文适配场景，减少信息噪音。</li>
+      <li>页面结构以产品逻辑组织，非泛泛的“网站导航”。</li>
+      <li>无强制注册、无弹窗广告、无诱导分享。</li>
+      <li>持续更新站点索引，但拒绝夸大覆盖范围。</li>
+    </ul>
+
+    <div class="highlight-box">
+      <p><strong>使用建议</strong> · 先通过站点了解目标服务的中文版本状态，再决定是否进一步操作。对任何第三方平台都保持基本核实习惯。</p>
+    </div>
+
+    <h2>典型使用场景</h2>
+    <div class="card-grid">
+      <div class="card">
+        <h4>快速甄别</h4>
+        <p>不确定某个海外工具是否提供中文界面？直接查阅索引，节省逐个测试的时间。</p>
+      </div>
+      <div class="card">
+        <h4>功能对照</h4>
+        <p>部分服务中文版与国际版存在差异，网站列出已知的功能对应关系，辅助决策。</p>
+      </div>
+      <div class="card">
+        <h4>环境参考</h4>
+        <p>了解是否需要特定网络条件或账户区域设置才能使用中文版本。</p>
+      </div>
+      <div class="card">
+        <h4>替代路径</h4>
+        <p>当某个官方渠道难以访问时，站点会注明可靠的替代信息来源（非破解、非侵权）。</p>
+      </div>
+    </div>
+
+    <h2>可信但克制的说明</h2>
+    <p>本站内容基于公开资料与社区反馈整理，不对任何第三方服务的可用性、合规性、稳定性做出保证。每个条目均标注信息采集时间与来源类型（官方 / 社区 / 推测），用户可以自行判断可信度。我们不接受付费收录或排名，也不对任何链接指向的页面内容负责。</p>
+
+    <h2>常见疑问（FAQ 摘要）</h2>
+    <div class="faq-item">
+      <div class="faq-q">Q: 网站上的链接是否都是官方地址？</div>
+      <div class="faq-a">A: 尽可能标注官方来源，但部分功能页面可能指向社区维护的文档或第三方镜像（已注明）。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: 信息更新频率如何？</div>
+      <div class="faq-a">A: 重要变更按周级更新，常规内容按月复核。每个条目均附最后审核日期。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Q: 为什么某些中文版本状态显示“待确认”？</div>
+      <div class="faq-a">A: 表示当前缺乏权威信源验证，标记为待确认以避免误导。欢迎通过站内渠道提交可靠证据。</div>
+    </div>
+
+    <div class="footnote">
+      <span>igame-chinese · 产品说明页</span>
+      <span style="float: right;">信息仅供参考，请以各平台最新公示为准。</span>
+    </div>
+  </div>
+</body>
+</html>
